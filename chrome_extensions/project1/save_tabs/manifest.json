@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.2.3",
+    "name": "Save Tabs",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+    
+}
