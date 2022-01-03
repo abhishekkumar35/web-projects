@@ -41,7 +41,7 @@ function display(tabs) {
     
 }
 
-deleteBtn.addEventListener("click", function() {
+deleteBtn.addEventListener("dblclick", function() {  // double click to delete all
     localStorage.clear()
     myTabs = [] ;
     ulEl.textContent = "";
