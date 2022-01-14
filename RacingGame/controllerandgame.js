@@ -85,8 +85,8 @@ function getArbitraryColor(){
 function moveLines() {
     let lines = document.querySelectorAll(".lines");
     lines.forEach(function (item) {
-        if (item.y >= 650) {
-            item.y -= 700;
+        if (item.y >= 710) {
+            item.y -= 750;
         }
         item.y += player.shift;
         item.style.top = item.y + "px";
@@ -132,8 +132,8 @@ function moveEnemyCars(car){
             endGame();
         }
         
-        if (item.y >= 650) {
-            item.y -= 700;
+        if (item.y >= 700) {
+            item.y -= 750;
             item.style.left = (Math.floor(Math.random()*348)) + "px";
             item.style.backgroundColor = getArbitraryColor();
             console.log(getArbitraryColor());
